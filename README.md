@@ -6,6 +6,19 @@ Built for **iOS & Android** from a single Flutter codebase, powered by the [TMDB
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/discover.png" width="24%" alt="Discover" />
+  <img src="screenshots/recommender.png" width="24%" alt="What Should I Watch?" />
+  <img src="screenshots/swipe.png" width="24%" alt="Swipe Discovery" />
+  <img src="screenshots/profile.png" width="24%" alt="Profile" />
+</p>
+
+<p align="center"><em>Discover &nbsp;·&nbsp; What Should I Watch? &nbsp;·&nbsp; Swipe Discovery &nbsp;·&nbsp; Profile</em></p>
+
+---
+
 ## ✨ Features
 
 - **🔍 Search** — Find any movie with a debounced live search; tap through to full details.
@@ -77,8 +90,8 @@ A few engineering details I'm happy with:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/mvoies-app.git
-cd mvoies-app
+git clone https://github.com/aboodmanasra/movies_app.git
+cd movies_app
 
 # 2. Add your TMDB API key
 #    Copy the template, then paste your key into the new file:
@@ -93,13 +106,6 @@ flutter run
 ```
 
 > 🔐 `lib/core/config/api_config.dart` holds your real key and is **gitignored** — it never gets committed. The repo only ships the `.example` template.
-
----
-
-## 📸 Screenshots
-
-<!-- Add your screenshots to a /screenshots folder and they'll show up here -->
-_Discover · Movie details · Swipe · Recommender · Watchlist_
 
 ---
 
